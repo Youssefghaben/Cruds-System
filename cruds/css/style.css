@@ -1,0 +1,90 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-color:grey;
+}
+/* bigdiv */
+.cruds{
+  background-color:grey;
+  
+  margin: auto;
+}
+/* head */
+.head{
+text-align: center;
+padding-bottom: 15px;
+margin-top: 15px;
+margin-bottom: 8px;
+border-bottom: 1px solid rgb(189, 187, 187);
+}
+/* -------------------------------------- */
+/* inputs */
+.inputs{
+  border: 2px solid black;
+  width: 50%;
+  margin: auto;
+  padding:8px;
+  height: 200px;
+  border-radius: 10px;
+  margin-bottom: 12px;
+}
+
+.form-control{
+  width: 100%;
+  }
+
+.button1{
+  margin-top: 10px;
+  float: right;
+  width: 30%;
+  color: white;
+  background-color: black;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+}
+button:hover{
+  background-color: rgb(52, 49, 49);
+}
+/* ---------------------------------- */
+/* outputs */
+.outputs{
+  border: 2px solid black;
+  width: 80%;
+  background-color:grey;
+  margin: auto;
+  padding: 15px;
+}
+table{
+ width: 100%;
+}
+
+.outputs th{
+  text-align: left;
+  background-color: #C0C0C0;
+  font-weight: bold;
+}
+
+.outputs tbody td:nth-of-type(even){
+  background-color:grey;
+}
+
+small{
+  color: red;
+  margin-left: 5px;
+  font-weight: bold;
+  font-size: 15px;
+  
+}
+
+button{
+  cursor: pointer;
+  margin: 3px;
+  padding-right:12px ;
+  padding-left: 12px;
+}
+
